@@ -28,7 +28,7 @@ require __DIR__ . '/vendor/autoload.php';
         }
 
         body {
-            padding-top: 0px;
+            padding-top: 0;
         }
 
         .bs-callout {
@@ -59,12 +59,14 @@ require __DIR__ . '/vendor/autoload.php';
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Présentation</a></li>
+                <li><a href="https://forum.ogsteam.fr">Forum</a></li>
                 <li><a href="#downloads">Téléchargements</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#about">A propos</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
+</nav>
     <div class="container">
         <div class="jumbotron">
 
@@ -104,7 +106,7 @@ require __DIR__ . '/vendor/autoload.php';
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="./img/ogspy/galaxie.png" alt="...">
+                    <img src="./img/ogspy/Galaxie.png" alt="...">
                     <div class="caption">
                         <h3>Vue Galaxie</h3>
                         <p>Mise à jour en temps réél par les utilisateurs, la vue galaxie permet de consulter les
@@ -134,7 +136,7 @@ require __DIR__ . '/vendor/autoload.php';
             </div>
         </div>
     </div>
-    </div>
+
     <div class="container">
         <div class="page-header">
             <h1>Téléchargements<small> ou hébergement...</small>
@@ -154,9 +156,10 @@ require __DIR__ . '/vendor/autoload.php';
     <div id="about" class="container">
         <div class="page-header">
             <h1>A Propos<small> Tu peux nous aider !</small></h1>
+            <p><script data-gratipay-username="OGSteam" src="//grtp.co/v1.js"></script></p>
         </div>
     </div>
-</nav>
+
 
 
 <!-- Bootstrap core JavaScript
